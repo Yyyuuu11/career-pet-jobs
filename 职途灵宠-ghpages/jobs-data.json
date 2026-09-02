@@ -1,0 +1,130 @@
+{
+  "source": "sample",
+  "jobs": [
+    {
+      "title": "电气工程师",
+      "degree": "本科",
+      "salaryMin": 8000,
+      "salaryMax": 14000,
+      "keywords": [
+        "电气",
+        "PLC",
+        "继电保护"
+      ],
+      "region": "广西壮族自治区",
+      "company": "广西电网",
+      "requirement": "电气工程及其自动化，熟悉PLC与继电保护"
+    },
+    {
+      "title": "自动化控制工程师",
+      "degree": "本科",
+      "salaryMin": 9000,
+      "salaryMax": 16000,
+      "keywords": [
+        "PLC",
+        "SCADA",
+        "DCS"
+      ],
+      "region": "广西壮族自治区",
+      "company": "柳工集团",
+      "requirement": "自动化/控制工程，掌握SCADA与DCS"
+    },
+    {
+      "title": "变电运维技术员",
+      "degree": "大专",
+      "salaryMin": 6000,
+      "salaryMax": 11000,
+      "keywords": [
+        "高低压",
+        "变电",
+        "配电"
+      ],
+      "region": "广西壮族自治区",
+      "company": "南方电网",
+      "requirement": "供配电运维，持电工证优先"
+    },
+    {
+      "title": "设备维修工程师",
+      "degree": "本科",
+      "salaryMin": 6500,
+      "salaryMax": 11000,
+      "keywords": [
+        "机电",
+        "变频",
+        "仪表"
+      ],
+      "region": "广西壮族自治区",
+      "company": "玉柴机器",
+      "requirement": "机电设备维修，熟悉变频器与仪表"
+    },
+    {
+      "title": "嵌入式软件工程师",
+      "degree": "本科",
+      "salaryMin": 10000,
+      "salaryMax": 18000,
+      "keywords": [
+        "单片机",
+        "嵌入式",
+        "C"
+      ],
+      "region": "广西壮族自治区",
+      "company": "润建股份",
+      "requirement": "嵌入式C开发，熟悉单片机"
+    },
+    {
+      "title": "电气工程师",
+      "degree": "本科",
+      "salaryMin": 9500,
+      "salaryMax": 17000,
+      "keywords": [
+        "电气",
+        "PLC"
+      ],
+      "region": "广东省",
+      "company": "比亚迪",
+      "requirement": "电气设计，PLC编程"
+    },
+    {
+      "title": "自动化工程师",
+      "degree": "硕士",
+      "salaryMin": 12000,
+      "salaryMax": 20000,
+      "keywords": [
+        "自动化",
+        "机器人"
+      ],
+      "region": "广东省",
+      "company": "大疆创新",
+      "requirement": "机器人/自动化系统集成"
+    },
+    {
+      "title": "电力调度员",
+      "degree": "本科",
+      "salaryMin": 8000,
+      "salaryMax": 15000,
+      "keywords": [
+        "电力",
+        "配电"
+      ],
+      "region": "江苏省",
+      "company": "国网江苏",
+      "requirement": "电力系统调度，熟悉配电网络"
+    },
+    {
+      "title": "工业视觉工程师",
+      "degree": "本科",
+      "salaryMin": 11000,
+      "salaryMax": 19000,
+      "keywords": [
+        "机器视觉",
+        "Python",
+        "算法"
+      ],
+      "region": "浙江省",
+      "company": "海康威视",
+      "requirement": "机器视觉算法，Python"
+    }
+  ],
+  "lastUpdate": "2026-09-02T08:12:26.215Z",
+  "nextUpdateHint": "2026-09-07T01:00:00.000Z"
+}
