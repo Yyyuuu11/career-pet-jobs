@@ -1,0 +1,926 @@
+{
+ "note": "手动整理的招聘数据种子（Demo）。后续可由 collect.js 接入免费招聘 API 自动产出。字段与前端 JOBS_RAW 对齐。",
+ "jobsRaw": [
+  {
+   "title": "电气工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6000,
+   "salaryMax": 10000,
+   "keywords": [
+    "电路设计",
+    "电力系统",
+    "AutoCAD",
+    "电气安全"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "自动化工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6500,
+   "salaryMax": 11000,
+   "keywords": [
+    "自动控制",
+    "PLC",
+    "西门子",
+    "编程"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "PLC工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 12000,
+   "keywords": [
+    "PLC",
+    "电气控制",
+    "三菱",
+    "触摸屏"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "电力系统运维",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 5500,
+   "salaryMax": 9000,
+   "keywords": [
+    "电力系统",
+    "继电保护",
+    "变电站",
+    "巡检"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "电气设计工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 12000,
+   "keywords": [
+    "电气设计",
+    "EPLAN",
+    "CAD",
+    "配电"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "嵌入式硬件工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7500,
+   "salaryMax": 13000,
+   "keywords": [
+    "嵌入式",
+    "单片机",
+    "ARM",
+    "PCB"
+   ],
+   "source": "BOSS直聘广西"
+  },
+  {
+   "title": "电气维修工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 5000,
+   "salaryMax": 8000,
+   "keywords": [
+    "故障诊断",
+    "电气安全",
+    "PLC",
+    "设备维护"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "新能源电气工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 12000,
+   "keywords": [
+    "新能源",
+    "光伏",
+    "储能",
+    "电力电子"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "电气技术员",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 4000,
+   "salaryMax": 6500,
+   "keywords": [
+    "电气图纸",
+    "CAD",
+    "电气安装"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "自动化设备工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6500,
+   "salaryMax": 11000,
+   "keywords": [
+    "自动化",
+    "设备调试",
+    "PLC",
+    "伺服"
+   ],
+   "source": "BOSS直聘广西"
+  },
+  {
+   "title": "高压试验工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 11500,
+   "keywords": [
+    "高电压",
+    "试验",
+    "电气安全",
+    "绝缘"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "建筑电气设计师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6500,
+   "salaryMax": 10500,
+   "keywords": [
+    "建筑电气",
+    "供配电",
+    "消防",
+    "CAD"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "智能电网工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7500,
+   "salaryMax": 12500,
+   "keywords": [
+    "智能电网",
+    "配电网",
+    "调度",
+    "电力系统"
+   ],
+   "source": "BOSS直聘广西"
+  },
+  {
+   "title": "电气项目经理",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 18000,
+   "keywords": [
+    "项目管理",
+    "电气",
+    "招投标",
+    "团队"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "机器人调试工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 12000,
+   "keywords": [
+    "机器人",
+    "PLC",
+    "自动化",
+    "调试"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "风电运维工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 14000,
+   "keywords": [
+    "风电",
+    "运维",
+    "电力系统",
+    "高空作业"
+   ],
+   "source": "BOSS直聘广西"
+  },
+  {
+   "title": "电气销售工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6000,
+   "salaryMax": 12000,
+   "keywords": [
+    "销售",
+    "电气",
+    "客户",
+    "方案"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "储能系统工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 15000,
+   "keywords": [
+    "储能",
+    "BMS",
+    "电力电子",
+    "新能源"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "电气工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 15000,
+   "keywords": [
+    "电路设计",
+    "电力系统",
+    "AutoCAD",
+    "电气安全"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "自动化工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 16000,
+   "keywords": [
+    "自动控制",
+    "PLC",
+    "西门子",
+    "编程"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "PLC工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 18000,
+   "keywords": [
+    "PLC",
+    "电气控制",
+    "三菱",
+    "触摸屏"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "电力系统运维",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 13000,
+   "keywords": [
+    "电力系统",
+    "继电保护",
+    "变电站",
+    "巡检"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "电气设计工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 18000,
+   "keywords": [
+    "电气设计",
+    "EPLAN",
+    "CAD",
+    "配电"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "嵌入式硬件工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 11000,
+   "salaryMax": 20000,
+   "keywords": [
+    "嵌入式",
+    "单片机",
+    "ARM",
+    "PCB"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "电气维修工程师",
+   "regionId": "广东省",
+   "degree": "大专",
+   "salaryMin": 7000,
+   "salaryMax": 11000,
+   "keywords": [
+    "故障诊断",
+    "电气安全",
+    "PLC",
+    "设备维护"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "新能源电气工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 11000,
+   "salaryMax": 19000,
+   "keywords": [
+    "新能源",
+    "光伏",
+    "储能",
+    "电力电子"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "电气技术员",
+   "regionId": "广东省",
+   "degree": "大专",
+   "salaryMin": 5500,
+   "salaryMax": 9000,
+   "keywords": [
+    "电气图纸",
+    "CAD",
+    "电气安装"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "自动化设备工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 17000,
+   "keywords": [
+    "自动化",
+    "设备调试",
+    "PLC",
+    "伺服"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "高压试验工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 16000,
+   "keywords": [
+    "高电压",
+    "试验",
+    "电气安全",
+    "绝缘"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "建筑电气设计师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 9500,
+   "salaryMax": 15000,
+   "keywords": [
+    "建筑电气",
+    "供配电",
+    "消防",
+    "CAD"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "智能电网工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 11000,
+   "salaryMax": 19000,
+   "keywords": [
+    "智能电网",
+    "配电网",
+    "调度",
+    "电力系统"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "电气项目经理",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 15000,
+   "salaryMax": 25000,
+   "keywords": [
+    "项目管理",
+    "电气",
+    "招投标",
+    "团队"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "机器人调试工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 17000,
+   "keywords": [
+    "机器人",
+    "PLC",
+    "自动化",
+    "调试"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "风电运维工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 12000,
+   "salaryMax": 20000,
+   "keywords": [
+    "风电",
+    "运维",
+    "电力系统",
+    "高空作业"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "电气销售工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 18000,
+   "keywords": [
+    "销售",
+    "电气",
+    "客户",
+    "方案"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "储能系统工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 13000,
+   "salaryMax": 22000,
+   "keywords": [
+    "储能",
+    "BMS",
+    "电力电子",
+    "新能源"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "电气工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 12000,
+   "keywords": [
+    "电路设计",
+    "电力系统",
+    "AutoCAD",
+    "电气安全"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "自动化工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 14000,
+   "keywords": [
+    "自动控制",
+    "PLC",
+    "西门子",
+    "编程"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "PLC工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 15000,
+   "keywords": [
+    "PLC",
+    "电气控制",
+    "三菱",
+    "触摸屏"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "电力系统运维",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 6500,
+   "salaryMax": 10500,
+   "keywords": [
+    "电力系统",
+    "继电保护",
+    "变电站",
+    "巡检"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "电气设计工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8500,
+   "salaryMax": 14000,
+   "keywords": [
+    "电气设计",
+    "EPLAN",
+    "CAD",
+    "配电"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "嵌入式硬件工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 16000,
+   "keywords": [
+    "嵌入式",
+    "单片机",
+    "ARM",
+    "PCB"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "电气维修工程师",
+   "regionId": "湖北省",
+   "degree": "大专",
+   "salaryMin": 5500,
+   "salaryMax": 9000,
+   "keywords": [
+    "故障诊断",
+    "电气安全",
+    "PLC",
+    "设备维护"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "新能源电气工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8500,
+   "salaryMax": 14000,
+   "keywords": [
+    "新能源",
+    "光伏",
+    "储能",
+    "电力电子"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "电气技术员",
+   "regionId": "湖北省",
+   "degree": "大专",
+   "salaryMin": 4500,
+   "salaryMax": 7500,
+   "keywords": [
+    "电气图纸",
+    "CAD",
+    "电气安装"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "自动化设备工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 13500,
+   "keywords": [
+    "自动化",
+    "设备调试",
+    "PLC",
+    "伺服"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "高压试验工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8500,
+   "salaryMax": 13500,
+   "keywords": [
+    "高电压",
+    "试验",
+    "电气安全",
+    "绝缘"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "建筑电气设计师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 13000,
+   "keywords": [
+    "建筑电气",
+    "供配电",
+    "消防",
+    "CAD"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "智能电网工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 9000,
+   "salaryMax": 15000,
+   "keywords": [
+    "智能电网",
+    "配电网",
+    "调度",
+    "电力系统"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "电气项目经理",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 12000,
+   "salaryMax": 20000,
+   "keywords": [
+    "项目管理",
+    "电气",
+    "招投标",
+    "团队"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "机器人调试工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 8500,
+   "salaryMax": 14000,
+   "keywords": [
+    "机器人",
+    "PLC",
+    "自动化",
+    "调试"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "风电运维工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 10000,
+   "salaryMax": 17000,
+   "keywords": [
+    "风电",
+    "运维",
+    "电力系统",
+    "高空作业"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "电气销售工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 7000,
+   "salaryMax": 14000,
+   "keywords": [
+    "销售",
+    "电气",
+    "客户",
+    "方案"
+   ],
+   "source": "前程无忧武汉站"
+  },
+  {
+   "title": "储能系统工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 11000,
+   "salaryMax": 18000,
+   "keywords": [
+    "储能",
+    "BMS",
+    "电力电子",
+    "新能源"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "农业技术员",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 4000,
+   "salaryMax": 7000,
+   "keywords": [
+    "作物栽培",
+    "植物保护",
+    "田间管理",
+    "农技推广"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "植保技术员",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 3800,
+   "salaryMax": 6500,
+   "keywords": [
+    "病虫害防治",
+    "农药",
+    "检疫",
+    "田间"
+   ],
+   "source": "广西人才网"
+  },
+  {
+   "title": "农业电商运营",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 4000,
+   "salaryMax": 8000,
+   "keywords": [
+    "农产品",
+    "直播",
+    "网店",
+    "推广"
+   ],
+   "source": "BOSS直聘广西"
+  },
+  {
+   "title": "智慧农业工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "本科",
+   "salaryMin": 6000,
+   "salaryMax": 11000,
+   "keywords": [
+    "物联网",
+    "传感器",
+    "数据分析",
+    "农业机械化"
+   ],
+   "source": "前程无忧广西站"
+  },
+  {
+   "title": "农业技术员",
+   "regionId": "广东省",
+   "degree": "大专",
+   "salaryMin": 5000,
+   "salaryMax": 8500,
+   "keywords": [
+    "作物栽培",
+    "植物保护",
+    "田间管理",
+    "农技推广"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "植保技术员",
+   "regionId": "广东省",
+   "degree": "大专",
+   "salaryMin": 4800,
+   "salaryMax": 8000,
+   "keywords": [
+    "病虫害防治",
+    "农药",
+    "检疫",
+    "田间"
+   ],
+   "source": "智联招聘广东站"
+  },
+  {
+   "title": "农业电商运营",
+   "regionId": "广东省",
+   "degree": "大专",
+   "salaryMin": 5000,
+   "salaryMax": 10000,
+   "keywords": [
+    "农产品",
+    "直播",
+    "网店",
+    "推广"
+   ],
+   "source": "BOSS直聘广东"
+  },
+  {
+   "title": "智慧农业工程师",
+   "regionId": "广东省",
+   "degree": "本科",
+   "salaryMin": 8000,
+   "salaryMax": 14000,
+   "keywords": [
+    "物联网",
+    "传感器",
+    "数据分析",
+    "农业机械化"
+   ],
+   "source": "前程无忧广东站"
+  },
+  {
+   "title": "农业技术员",
+   "regionId": "湖北省",
+   "degree": "大专",
+   "salaryMin": 4200,
+   "salaryMax": 7200,
+   "keywords": [
+    "作物栽培",
+    "植物保护",
+    "田间管理",
+    "农技推广"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "植保技术员",
+   "regionId": "湖北省",
+   "degree": "大专",
+   "salaryMin": 4000,
+   "salaryMax": 6800,
+   "keywords": [
+    "病虫害防治",
+    "农药",
+    "检疫",
+    "田间"
+   ],
+   "source": "武汉人才网"
+  },
+  {
+   "title": "农业电商运营",
+   "regionId": "湖北省",
+   "degree": "大专",
+   "salaryMin": 4500,
+   "salaryMax": 9000,
+   "keywords": [
+    "农产品",
+    "直播",
+    "网店",
+    "推广"
+   ],
+   "source": "BOSS直聘武汉"
+  },
+  {
+   "title": "智慧农业工程师",
+   "regionId": "湖北省",
+   "degree": "本科",
+   "salaryMin": 6500,
+   "salaryMax": 12000,
+   "keywords": [
+    "物联网",
+    "传感器",
+    "数据分析",
+    "农业机械化"
+   ],
+   "source": "前程无忧武汉站"
+  }
+ ]
+}
