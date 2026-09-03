@@ -1,11 +1,14 @@
 #!/usr/bin/env node
 /**
- * 职途灵宠 · 招聘数据采集脚本
+ * 职途灵宠 · 招聘数据采集脚本（扁平版 · 国内岗位默认 + 国际可选）
  * ------------------------------------------------------------
- * 作用：把「招聘原始数据」整理成前端可直接消费的 jobs.json。
- *   - 默认：读取 data/seed.json（手动整理的 Demo 真实岗位）。
- *   - 进阶：若设置环境变量 JOBDATA_API_KEY，可接入免费招聘 API（见底部 fetchFromApi 占位）。
- * 输出：data/jobs.json，结构 { version, updatedAt, jobsRaw:[...] }
+ * 默认模式（DATA_MODE 未设置或为 domestic）：读取同目录 domestic_seed.json
+ *   —— 一份覆盖学校各专业 + 多省份的「国内招聘岗位样本」（中文标题、省份、人民币薪资、
+ *      关键词按专业类别对齐），整理成前端可直接消费的 jobs.json。
+ * 国际模式（DATA_MODE=international 且配置了 JDL_API_KEY / JOBDATA_API_KEY）：
+ *   调用 JobDataLake 免费招聘 API（https://api.jobdatalake.com/v1/jobs）拉取真实国际在招岗位。
+ * 兜底：domestic_seed.json 缺失时回退到 seed.json，保证仓库不空。
+ * 输出：jobs.json，结构 { version, updatedAt, note, jobsRaw:[...] }
  *   - 仅当数据与上次不同才自增 version 并写盘（避免 GitHub Actions 每周空提交）。
  *
  * 前端合并逻辑：页面读取 jobs.json.jobsRaw，替换内置 CAREER_PET_DATA.jobsRaw
@@ -15,51 +18,130 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(__dirname, '..');
-const SEED = path.join(ROOT, 'data', 'seed.json');
-const OUT = path.join(ROOT, 'data', 'jobs.json');
+const SEED = path.join(__dirname, 'seed.json');
+const OUT = path.join(__dirname, 'jobs.json');
 
 function readJSON(p) { return JSON.parse(fs.readFileSync(p, 'utf8')); }
 
 function bumpVersion(v) {
-  // "2.0.0" -> "2.1.0"（次版本递增）；非法输入从 2.1.0 起
   const m = /^(\d+)\.(\d+)\.(\d+)$/.exec(v || '');
-  if (!m) return '2.1.0';
-  const major = +m[1], minor = +m[2] + 1, patch = +m[3];
-  return `${major}.${minor}.${patch}`;
+  if (!m) return '2.2.0';
+  return `${+m[1]}.${+m[2] + 1}.${+m[3]}`;
+}
+
+// seniority 数组 → 经验要求（填充到 degree 槽位，避免面板出现 "· · " 空档）
+function normSeniority(sen) {
+  const arr = Array.isArray(sen) ? sen : (sen ? [sen] : []);
+  const map = [
+    [/intern/i, '实习'],
+    [/entry/i, '应届/入门'],
+    [/junior/i, '初级'],
+    [/mid/i, '1-3年'],
+    [/senior/i, '3-5年'],
+    [/staff|principal/i, '5年以上'],
+    [/manager|director|c level/i, '管理岗']
+  ];
+  for (const s of arr) {
+    for (const [re, label] of map) if (re.test(s)) return label;
+  }
+  return '经验不限';
+}
+
+function normRegion(locs, ctrys) {
+  const loc = Array.isArray(locs) ? locs : [];
+  const c = Array.isArray(ctrys) ? ctrys : [];
+  let base = loc[0] || (c[0] || '');
+  if (/remote/i.test(base)) base = '远程';
+  return [base, c[0]].filter(Boolean).join(' · ');
 }
 
 function normalizeJob(j) {
-  // 字段对齐前端 JOBS_RAW：title/regionId/degree/salaryMin/salaryMax/keywords/source
+  const salMinUsd = Number(j.salary_min_usd) || 0;
+  const salMaxUsd = Number(j.salary_max_usd) || 0;
   return {
     title: String(j.title || '').trim(),
-    regionId: String(j.regionId || '').trim(),
-    degree: String(j.degree || '').trim(),
-    salaryMin: Math.max(0, parseInt(j.salaryMin, 10) || 0),
-    salaryMax: Math.max(0, parseInt(j.salaryMax, 10) || 0),
-    keywords: Array.isArray(j.keywords) ? j.keywords.map(String) : [],
-    source: String(j.source || '').trim()
+    regionId: normRegion(j.locations, j.countries),
+    degree: normSeniority(j.seniority),
+    salaryMin: salMinUsd ? salMinUsd * 1000 : 0,
+    salaryMax: salMaxUsd ? salMaxUsd * 1000 : 0,
+    keywords: Array.isArray(j.required_skills) ? j.required_skills.slice(0, 8).map(String) : [],
+    source: 'JobDataLake'
   };
 }
 
-// —— 进阶：接入免费招聘 API（可选）。当前为占位，配置 JOBDATA_API_KEY 后实现解析即可 ——
 async function fetchFromApi() {
-  if (!process.env.JOBDATA_API_KEY) return null;
-  // 示例（伪代码，按你选用的 API 调整）：
-  // const res = await fetch('https://api.example.com/jobs?key=' + process.env.JOBDATA_API_KEY);
-  // const raw = await res.json();
-  // return raw.map(mapApiRowToJob);
-  console.log('[collect] 检测到 JOBDATA_API_KEY，但 fetchFromApi 尚未实现具体 API 映射，回退到 seed。');
-  return null;
+  const base = 'https://api.jobdatalake.com/v1/jobs';
+  const headers = {};
+  // 免费档无需密钥即可调用（每天 500 次）；配置 JDL_API_KEY / JOBDATA_API_KEY 可提升配额
+  const apiKey = process.env.JDL_API_KEY || process.env.JOBDATA_API_KEY;
+  if (apiKey) headers['Authorization'] = 'Bearer ' + apiKey;
+  const out = [];
+  const perPage = 100;
+  const maxPages = 2;
+  for (let p = 1; p <= maxPages; p++) {
+    const url = `${base}?per_page=${perPage}&page=${p}&remote_type=fully_remote`;
+    try {
+      const r = await fetch(url, { headers });
+      if (!r.ok) { console.warn('[collect] API 返回 ' + r.status + '，停止翻页'); break; }
+      const d = await r.json();
+      const jobs = d.jobs || [];
+      if (!jobs.length) break;
+      for (const j of jobs) out.push(normalizeJob(j));
+    } catch (e) {
+      console.warn('[collect] 拉取异常：' + e.message);
+      break;
+    }
+    if (out.length >= 200) break;
+  }
+  return out.length ? out : null;
+}
+
+const DOMESTIC = path.join(__dirname, 'domestic_seed.json');
+
+function readDomestic() {
+  let data;
+  if (fs.existsSync(DOMESTIC)) {
+    data = readJSON(DOMESTIC);
+    console.log('[collect] 已读取国内岗位样本 domestic_seed.json（' + (data.jobsRaw || []).length + ' 条）');
+  } else {
+    data = readJSON(SEED);
+    console.log('[collect] 回退到 seed.json（' + (data.jobsRaw || []).length + ' 条）');
+  }
+  return {
+    jobs: (data.jobsRaw || []).map(function (j) {
+      return {
+        title: String(j.title || '').trim(),
+        regionId: String(j.regionId || '').trim(),
+        degree: String(j.degree || '').trim(),
+        salaryMin: Math.max(0, parseInt(j.salaryMin, 10) || 0),
+        salaryMax: Math.max(0, parseInt(j.salaryMax, 10) || 0),
+        keywords: Array.isArray(j.keywords) ? j.keywords.map(String) : [],
+        source: String(j.source || '').trim()
+      };
+    }),
+    version: data.version || '2.3.0'
+  };
 }
 
 async function main() {
-  let jobs = await fetchFromApi();
-  if (!jobs) {
-    const seed = readJSON(SEED);
-    jobs = (seed.jobsRaw || []).map(normalizeJob);
+  const mode = (process.env.DATA_MODE || 'domestic').toLowerCase();
+  let jobs = null;
+  let fromApi = false;
+  // 国际模式且配置了密钥时，调用 JobDataLake 实时 API
+  if (mode === 'international' && (process.env.JDL_API_KEY || process.env.JOBDATA_API_KEY)) {
+    jobs = await fetchFromApi();
+    if (jobs) fromApi = true;
   }
-  // 去重（同 title+region+degree 保留一条）
+  let domVer = '2.3.0';
+  if (!jobs) {
+    const d = readDomestic();
+    jobs = d.jobs;
+    domVer = d.version;
+    if (!fromApi) console.log('[collect] 国内模式：使用 domestic_seed.json');
+  } else {
+    console.log('[collect] 已从 JobDataLake 拉取 ' + jobs.length + ' 条（国际模式）');
+  }
+
   const seen = new Set();
   const dedup = [];
   for (const j of jobs) {
@@ -78,15 +160,15 @@ async function main() {
     return;
   }
 
-  const version = prev ? bumpVersion(prev.version) : '2.1.0';
+  const version = prev ? bumpVersion(prev.version) : domVer;
   const out = {
     version,
     updatedAt: new Date().toISOString().slice(0, 10),
-    note: '由 collect.js 生成。job 总数 ' + dedup.length + '。',
+    note: '由 collect.js 自动生成（来源：' + (fromApi ? 'JobDataLake 国际实时 API' : '国内岗位样本 domestic_seed.json') + '），共 ' + dedup.length + ' 条。',
     jobsRaw: dedup
   };
   fs.writeFileSync(OUT, JSON.stringify(out, null, 1));
-  console.log('[collect] 已写入 data/jobs.json，version=' + version + '，条数=' + dedup.length);
+  console.log('[collect] 已写入 jobs.json，version=' + version + '，条数=' + dedup.length);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

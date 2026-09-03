@@ -1,7 +1,7 @@
 {
  "version": "2.4.0",
  "updatedAt": "2026-09-03",
- "note": "由 collect.js 自动生成（来源：国内岗位样本 domestic_seed.json），共 1020 条。",
+ "note": "国内招聘岗位样本（按专业类别×31省份生成，每类每省至少1条，关键词对齐 MAJOR_CAT_KEYWORDS，便于面板按专业/城市筛选；覆盖全国避免仅广西有数据）",
  "jobsRaw": [
   {
    "title": "电商设计师",
@@ -5707,6 +5707,20 @@
    "source": "58同城"
   },
   {
+   "title": "室内设计师",
+   "regionId": "山西省",
+   "degree": "本科",
+   "salaryMin": 6400,
+   "salaryMax": 7400,
+   "keywords": [
+    "室内",
+    "UX",
+    "设计",
+    "沟通"
+   ],
+   "source": "校招内推"
+  },
+  {
    "title": "客户经理",
    "regionId": "广西壮族自治区",
    "degree": "本科",
@@ -6933,6 +6947,21 @@
     "责任心"
    ],
    "source": "广西人才网"
+  },
+  {
+   "title": "直播运营",
+   "regionId": "湖南省",
+   "degree": "本科",
+   "salaryMin": 6400,
+   "salaryMax": 7900,
+   "keywords": [
+    "新媒体",
+    "直播",
+    "运营",
+    "商务",
+    "沟通"
+   ],
+   "source": "当地人才网"
   },
   {
    "title": "电商运营",
@@ -13340,6 +13369,21 @@
    "source": "校招内推"
   },
   {
+   "title": "售后工程师",
+   "regionId": "广西壮族自治区",
+   "degree": "大专",
+   "salaryMin": 9900,
+   "salaryMax": 11400,
+   "keywords": [
+    "射频",
+    "单片机",
+    "PCB",
+    "电路",
+    "责任心"
+   ],
+   "source": "广西人社厅"
+  },
+  {
    "title": "饲料技术员",
    "regionId": "内蒙古自治区",
    "degree": "本科",
@@ -13639,6 +13683,21 @@
     "责任心"
    ],
    "source": "校招内推"
+  },
+  {
+   "title": "运维工程师",
+   "regionId": "山东省",
+   "degree": "本科",
+   "salaryMin": 11200,
+   "salaryMax": 12700,
+   "keywords": [
+    "系统",
+    "编程",
+    "开发",
+    "大数据",
+    "团队协作"
+   ],
+   "source": "广西人才网"
   },
   {
    "title": "药物警戒专员",
