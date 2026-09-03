@@ -1,0 +1,2241 @@
+{
+ "version": "2.2.0",
+ "updatedAt": "2026-09-03",
+ "note": "由 collect.js 自动生成（来源：JobDataLake 实时 API），共 197 条。",
+ "jobsRaw": [
+  {
+   "title": "Veterinary Clinic Support Associate (Remote)",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 50000,
+   "salaryMax": 80000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Veterinary Clinic Implementation Associate",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 60000,
+   "salaryMax": 85000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Staff Software Engineer, DevOps (Remote)",
+   "regionId": "远程 · US",
+   "degree": "5年以上",
+   "salaryMin": 106000,
+   "salaryMax": 169000,
+   "keywords": [
+    "AWS",
+    "Azure",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "CloudFormation",
+    "CI/CD",
+    "DevOps"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Mechanical Engineer, Healthcare Buildings (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 106000,
+   "salaryMax": 218000,
+   "keywords": [
+    "Mechanical Engineering",
+    "Project Management",
+    "Communication"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Engineering Manager",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "SOC 2",
+    "ISO 27001",
+    "CI/CD",
+    "Databricks"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Head of Infrastructure Engineering",
+   "regionId": "远程 · US",
+   "degree": "5年以上",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Azure",
+    "CI/CD",
+    "Databricks",
+    "SOC 2",
+    "ISO 27001",
+    "Terraform",
+    "ARM",
+    "DevOps"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Inventory Accounting Analyst",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 65000,
+   "salaryMax": 70000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Project Engineer, EPC and Commissioning - Battery Storage (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 175000,
+   "salaryMax": 175000,
+   "keywords": [
+    "Electrical Engineering",
+    "Procurement",
+    "AutoCAD",
+    "Microsoft Project",
+    "Excel",
+    "Outlook",
+    "PowerPoint",
+    "Word"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Finance and Capital Markets Analyst",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 105000,
+   "salaryMax": 105000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Site Reliability Engineer",
+   "regionId": "Europe · EU",
+   "degree": "3-5年",
+   "salaryMin": 110000,
+   "salaryMax": 110000,
+   "keywords": [
+    "OpenTelemetry",
+    "GCP",
+    "Prometheus",
+    "Grafana",
+    "Terraform",
+    "Helm",
+    "Kubernetes",
+    "Go"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Program Manager, Talent Management (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Project Management",
+    "Performance Management",
+    "Kronos",
+    "SHRM-CP",
+    "PMP"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Professional Services Specialist",
+   "regionId": "远程 · CO",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Director, Army and Defense Agencies Capture (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 225000,
+   "salaryMax": 305000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Project Support Assistant (Remote)",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Claims Processing Lead",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 90000,
+   "salaryMax": 98000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Medicaid & Medicare Fraud Detection SME",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 149000,
+   "salaryMax": 201000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Test Engineer (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 86000,
+   "salaryMax": 116000,
+   "keywords": [
+    "PostgreSQL",
+    "JavaScript",
+    "Playwright",
+    "JIRA",
+    "ETL",
+    "API"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Customer Onboarding Specialist (Remote)",
+   "regionId": "Philadelphia, PA · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Customer Onboarding Specialist (Remote)",
+   "regionId": "Forty Fort, PA · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Customer Onboarding Specialist (Remote)",
+   "regionId": "Milford, CT · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Principal Architect, Manufacturing Security",
+   "regionId": "Copenhagen, DK · DK",
+   "degree": "5年以上",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "CISA",
+    "PLC",
+    "SCADA",
+    "Cybersecurity"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Vice President, Information Security",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 250000,
+   "salaryMax": 350000,
+   "keywords": [
+    "CI/CD",
+    "CISSP",
+    "CISM"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Service Inside Sales Specialist",
+   "regionId": "远程 · PL",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Digital Project Leader",
+   "regionId": "远程 · GB",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Associate Field Service Engineer",
+   "regionId": "Goa, IND · IN",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Customer Technical Support Specialist, Lab Automation (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 64000,
+   "salaryMax": 85000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Global Lead, Attack Surface Management (Remote)",
+   "regionId": "远程 · BR",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "TCP/IP",
+    "DNS",
+    "Python",
+    "CISSP",
+    "CISM",
+    "API"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Global Lead, Red Teaming (Remote)",
+   "regionId": "远程 · BR",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Cybersecurity"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead Engineer, Vulnerability & Exposure Management (Remote)",
+   "regionId": "远程 · BR",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Python",
+    "SQL",
+    "REST",
+    "ServiceNow",
+    "JIRA",
+    "Kubernetes"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Leaves & Accommodations Specialist",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 93000,
+   "salaryMax": 135000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Robotics Software Engineer, Controls & Perception (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 150000,
+   "salaryMax": 200000,
+   "keywords": [
+    "C++",
+    "Python",
+    "Computer Vision",
+    "CI/CD",
+    "Robotics"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Business Solutions Architect",
+   "regionId": "London, ON · Canada",
+   "degree": "3-5年",
+   "salaryMin": 130000,
+   "salaryMax": 135000,
+   "keywords": [
+    "Salesforce",
+    "Power BI",
+    "SQL",
+    "Oracle",
+    "Python",
+    "Pandas",
+    "Git"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead Analytics Engineer",
+   "regionId": "远程 · CA",
+   "degree": "3-5年",
+   "salaryMin": 142000,
+   "salaryMax": 213000,
+   "keywords": [
+    "SQL",
+    "dbt",
+    "Airflow",
+    "Python",
+    "Git",
+    "Redshift"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Solutions Architect, Digital Pathology (Remote)",
+   "regionId": "Denver, CO · US",
+   "degree": "1-3年",
+   "salaryMin": 120000,
+   "salaryMax": 140000,
+   "keywords": [
+    "CRM",
+    "Salesforce",
+    "Networking"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director, Communications Strategy & Operational Excellence (Remote)",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 140000,
+   "salaryMax": 190000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Digital Pathology Helpdesk Engineer",
+   "regionId": "远程 · DE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Global HRSD Content Specialist (Remote)",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 75000,
+   "salaryMax": 108000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior AI Engineer, Legal (Remote)",
+   "regionId": "远程 · IN",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Python",
+    "TypeScript",
+    "LLM",
+    "RAG",
+    "LangChain",
+    "Hugging Face",
+    "Azure",
+    "AWS"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Accountant",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 90000,
+   "salaryMax": 115000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Account Manager",
+   "regionId": "远程 · DE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Applications Scientist (Remote)",
+   "regionId": "远程 · BE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Field Service Engineer",
+   "regionId": "Kassel, Germany · DE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Field Applications Specialist (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 83000,
+   "salaryMax": 96000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Application Security Engineer (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 150000,
+   "salaryMax": 200000,
+   "keywords": [
+    "CI/CD",
+    "Security"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Commercial Training & Competency Program Manager",
+   "regionId": "远程 · FR",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Excel"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Support Scientist",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 70000,
+   "salaryMax": 85000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Field Service Engineer, JAPAC (Remote)",
+   "regionId": "远程 · HK",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Representative",
+   "regionId": "远程 · JP",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Commercial Training & Competency Program Manager",
+   "regionId": "远程 · GB",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Microsoft 365",
+    "Excel"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Marketing Operations Manager (Remote)",
+   "regionId": "远程",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer, Fleet Intelligence",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Ruby on Rails",
+    "React",
+    "TypeScript",
+    "SQL",
+    "PostgreSQL",
+    "Snowflake",
+    "dbt",
+    "Tableau"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Development Manager",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Civil Engineering",
+    "Infrastructure",
+    "Project Management",
+    "Contract Negotiation",
+    "Due Diligence"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Manager of Strategic Events (Remote)",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 88000,
+   "salaryMax": 164000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Intern",
+   "regionId": "远程 · IN",
+   "degree": "实习",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Python",
+    "Java",
+    "Data Science",
+    "AI",
+    "Customer Service"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Manager, Clinical Operations",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 147000,
+   "salaryMax": 221000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Manager, Clinical Operations (Remote)",
+   "regionId": "远程 · UK",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Manager, Clinical Operations",
+   "regionId": "远程 · MX",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Manager, Clinical Operations",
+   "regionId": "远程 · CA",
+   "degree": "3-5年",
+   "salaryMin": 147000,
+   "salaryMax": 221000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Safety Specialist",
+   "regionId": "远程 · JP",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Amazon Connect Engineer, Conversational AI",
+   "regionId": "Mexico City · MX",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Lambda",
+    "DynamoDB",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "React",
+    "Terraform",
+    "CI/CD"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Full Stack Engineer",
+   "regionId": "远程 · BR",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Vue.js",
+    "MongoDB",
+    "Redis",
+    "GitHub Actions",
+    "Terraform",
+    "AWS",
+    "Frontend",
+    "Backend"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Technical Support Engineer",
+   "regionId": "远程 · DE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Technical Support Engineer",
+   "regionId": "Barcelona, Spain · ES",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior DevOps Engineer (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Azure DevOps",
+    "Node.js",
+    "New Relic",
+    "Datadog",
+    "CI/CD",
+    "DevOps",
+    "Infrastructure"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Project Engineer",
+   "regionId": "Germany · DE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Financial Analyst (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 84000,
+   "salaryMax": 142000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Professional Services Consultant",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director, Practice Development (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Manager, Tax Technology (Remote)",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Clinical Drug Services Analyst",
+   "regionId": "Alberta · CA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Dental Provider Relations Representative",
+   "regionId": "Alberta · CA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Personal Benefits Consultant, Inside Sales",
+   "regionId": "Alberta · CA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Contact Centre Administrator, Group Plan Administrator Support",
+   "regionId": "远程 · CA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Payment Specialist",
+   "regionId": "远程 · CA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Solution Sales Executive, Governance Risk and Compliance (Remote)",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 143000,
+   "salaryMax": 230000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Sales Manager, Major Accounts",
+   "regionId": "Germany · DE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Solution Sales Executive - Sustainability",
+   "regionId": "Mexico · MX",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Enterprise Client Director, Major Accounts",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 308000,
+   "salaryMax": 500000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Machine Learning Engineering Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 83000,
+   "salaryMax": 83000,
+   "keywords": [
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Python",
+    "Go",
+    "API",
+    "Machine Learning"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Product Management Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 83000,
+   "salaryMax": 83000,
+   "keywords": [
+    "Communication",
+    "Problem Solving"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Data Analytics Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 22000,
+   "salaryMax": 22000,
+   "keywords": [
+    "Excel"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Security & GRC Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 83000,
+   "salaryMax": 83000,
+   "keywords": [
+    "Python",
+    "Java",
+    "SQL",
+    "Go",
+    "Dart",
+    "AWS",
+    "Linux",
+    "Unix"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Software Engineering Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 83000,
+   "salaryMax": 83000,
+   "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Python",
+    "Go",
+    "C++",
+    "C#",
+    "Dart"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Principal Solution Consultant, AI (Remote)",
+   "regionId": "远程 · US",
+   "degree": "5年以上",
+   "salaryMin": 227000,
+   "salaryMax": 370000,
+   "keywords": [
+    "AI",
+    "Machine Learning"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Account Executive",
+   "regionId": "Belgium · BE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Solution Sales Executive, Governance Risk and Compliance (Remote)",
+   "regionId": "远程 · CA",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director of Strategic Initiatives",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 154000,
+   "salaryMax": 265000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Technology Services Operations Intern (Remote)",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [
+    "AWS"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Program Management Intern",
+   "regionId": "New York, NY · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Enablement Intern (Remote)",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Development Intern (Remote)",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Analyst Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Partnerships Intern",
+   "regionId": "New York, NY · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Marketing Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 73000,
+   "salaryMax": 73000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sustainability Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 73000,
+   "salaryMax": 73000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Success Intern (Remote)",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Creative Production Intern",
+   "regionId": "New York, NY · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Communications & Culture Programs Intern",
+   "regionId": "New York, NY · US",
+   "degree": "实习",
+   "salaryMin": 44000,
+   "salaryMax": 44000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Commercial Strategy Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Business Systems Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Analytics Intern (Remote)",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Financial Reporting Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Brand Design Intern",
+   "regionId": "远程 · US",
+   "degree": "实习",
+   "salaryMin": 46000,
+   "salaryMax": 46000,
+   "keywords": [
+    "Figma",
+    "Adobe Creative Cloud",
+    "Microsoft 365"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Technical Program Manager, GRC",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 111000,
+   "salaryMax": 180000,
+   "keywords": [
+    "AI",
+    "Project Management",
+    "Agile"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Vice President of Product Marketing",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 241000,
+   "salaryMax": 345000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer, Frontend Architecture (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 111000,
+   "salaryMax": 180000,
+   "keywords": [
+    "TypeScript",
+    "React",
+    "Agile",
+    "AI",
+    "Frontend"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer - Product",
+   "regionId": "Ames, IA · US",
+   "degree": "3-5年",
+   "salaryMin": 111000,
+   "salaryMax": 180000,
+   "keywords": [
+    "Java",
+    "Kotlin",
+    "Go",
+    "TypeScript",
+    "React",
+    "Dart",
+    "Cloud Computing",
+    "Agile"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Account Executive",
+   "regionId": "Toronto, ON · CA",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Software Engineer",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 111000,
+   "salaryMax": 180000,
+   "keywords": [
+    "Java",
+    "Kotlin",
+    "Go",
+    "TypeScript",
+    "React",
+    "Dart",
+    "Agile",
+    "Communication"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer, Business Intelligence (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 111000,
+   "salaryMax": 180000,
+   "keywords": [
+    "Java",
+    "Kotlin",
+    "Go",
+    "TypeScript",
+    "React",
+    "Dart",
+    "Cloud Computing",
+    "Agile"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Technical Solution Consultant",
+   "regionId": "远程 · NL",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Sales Manager (Remote)",
+   "regionId": "Germany · DE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead Customer Success Manager, Public Sector (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 93000,
+   "salaryMax": 165000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Campaign Manager",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 106000,
+   "salaryMax": 185000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Claims Representative, Workers Compensation",
+   "regionId": "Manassas, VA · US",
+   "degree": "3-5年",
+   "salaryMin": 75000,
+   "salaryMax": 110000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead Marketing Coordinator",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 72000,
+   "salaryMax": 101000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Claims Adjuster",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 80000,
+   "salaryMax": 100000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Engagement Moderation (Remote)",
+   "regionId": "远程 · FR",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Integrations Consultant / Software Developer",
+   "regionId": "Caldicot · GB",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "SQL",
+    ".NET",
+    "C++",
+    "C#",
+    "JavaScript",
+    "Java",
+    "HTML",
+    "SOAP"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Manager, Incident Response",
+   "regionId": "Ireland · IE",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Leadership",
+    "CRM",
+    "Project Management",
+    "CISSP"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Vice President, Commercial and Privacy",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director, Legal",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 186000,
+   "salaryMax": 302000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "regionId": "远程 · EU",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "AWS",
+    "Databricks",
+    "Spark",
+    "S3",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "Terraform"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Vice President, Transportation (Remote)",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 225000,
+   "salaryMax": 309000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Engineer, Event-Driven Architecture",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Kafka",
+    "API",
+    "SQL",
+    "PostgreSQL",
+    "Salesforce",
+    "SAP",
+    "Agile"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Consultant, Innovation Technologies - Pricing Solutions (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 95000,
+   "salaryMax": 136000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Service Specialist, Wound Care (Remote)",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Pricing Operations Analyst",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 57000,
+   "salaryMax": 73000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Quality Assurance Specialist",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Regulatory Submissions Operations Coordinator",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 55000,
+   "salaryMax": 70000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Data Analyst",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 105000,
+   "salaryMax": 150000,
+   "keywords": [
+    "Data Engineering",
+    "Data Science",
+    "AI",
+    "Machine Learning",
+    "Cloud Computing",
+    "Data Warehousing",
+    "SQL"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer, Information Platform (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 123000,
+   "salaryMax": 176000,
+   "keywords": [
+    "GCP",
+    "Databricks",
+    "IAM",
+    "API",
+    "Backend",
+    "DevOps",
+    "Infrastructure"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Solutions Architect, Forward Deployed (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 153000,
+   "salaryMax": 269000,
+   "keywords": [
+    "Databricks",
+    "Snowflake",
+    "Python",
+    "Node.js",
+    "Go",
+    "React",
+    "Vue.js",
+    "Docker"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Staff IT Engineer (Remote)",
+   "regionId": "远程 · US",
+   "degree": "5年以上",
+   "salaryMin": 143000,
+   "salaryMax": 207000,
+   "keywords": [
+    "Bash",
+    "Python",
+    "Terraform",
+    "macOS",
+    "Windows",
+    "SOC 2",
+    "ISO 27001"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "AMISYS Developer",
+   "regionId": "Chicago, IL · US",
+   "degree": "1-3年",
+   "salaryMin": 146000,
+   "salaryMax": 187000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "AI Engineering Manager",
+   "regionId": "Chicago, IL · US",
+   "degree": "管理岗",
+   "salaryMin": 140000,
+   "salaryMax": 170000,
+   "keywords": [
+    "Python",
+    "TypeScript",
+    "React",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Forward Deployed Engineer Associate",
+   "regionId": "Chicago, IL · US",
+   "degree": "应届/入门",
+   "salaryMin": 105000,
+   "salaryMax": 130000,
+   "keywords": [
+    "Python",
+    "AWS",
+    "Azure",
+    "RAG",
+    "AI",
+    "Backend",
+    "Frontend",
+    "FullStack"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Vice President, Procurement Center of Excellence",
+   "regionId": "Denver, CO · US",
+   "degree": "管理岗",
+   "salaryMin": 255000,
+   "salaryMax": 285000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Product Manager, DevTools & AI Reliability",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "AI",
+    "API",
+    "OpenTelemetry",
+    "Playwright",
+    "DevOps",
+    "SRE",
+    "LLM"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Data Platform and AI Engineer",
+   "regionId": "Argentina · AR",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Python",
+    "SQL",
+    "AWS",
+    "Git",
+    "CI/CD",
+    "Generative AI",
+    "LLM",
+    "RAG"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Procurement Coordinator (Remote)",
+   "regionId": "远程",
+   "degree": "1-3年",
+   "salaryMin": 70000,
+   "salaryMax": 80000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Procurement Administrator (Remote)",
+   "regionId": "远程",
+   "degree": "应届/入门",
+   "salaryMin": 55000,
+   "salaryMax": 60000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Executive Assistant",
+   "regionId": "远程",
+   "degree": "1-3年",
+   "salaryMin": 100000,
+   "salaryMax": 120000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director of Freight and Logistics",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 140000,
+   "salaryMax": 170000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Technical Support, Help Desk, QA",
+   "regionId": "San Miguel de Tucumán, Tucumán · AR",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Full-Stack Web Developer (Remote)",
+   "regionId": "San Miguel de Tucumán, Tucumán · AR",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "jQuery",
+    "HTML",
+    "CSS",
+    "MySQL",
+    "React Native"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Commercial Manager",
+   "regionId": "San Miguel de Tucumán, AR · AR",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Junior Performance Marketer",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Brand Manager",
+   "regionId": "远程",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Brand Director (Remote)",
+   "regionId": "远程",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Implementation Manager (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Implementation Manager (Remote)",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Business Analyst",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Online German Teacher",
+   "regionId": "远程",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Werkstudent (Remote)",
+   "regionId": "Maarssen, UT · NL",
+   "degree": "实习",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Software Engineer, Odoo Developer",
+   "regionId": "Saarbrücken, SL · DE",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Python",
+    "XML",
+    "PostgreSQL",
+    "JavaScript",
+    "REST",
+    "Git",
+    "Docker",
+    "Linux"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior MEP Project Manager",
+   "regionId": "Genova, Liguria · IT",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Project Management",
+    "Leadership",
+    "Problem Solving",
+    "English"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Service Specialist",
+   "regionId": "Stuttgart, BW · DE",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "IT Endpoint Management Specialist",
+   "regionId": "Málaga, AN · ES",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Microsoft 365",
+    "PowerShell"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Automation Engineer",
+   "regionId": "远程 · SE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "SCADA"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Pre-Sales Consultant, Life Sciences (Remote)",
+   "regionId": "Gütersloh, Nordrhein-Westfalen, DE · DE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior SAP BTP Developer (Remote)",
+   "regionId": "New York, NY · US",
+   "degree": "3-5年",
+   "salaryMin": 125000,
+   "salaryMax": 140000,
+   "keywords": [
+    "JavaScript",
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "REST",
+    "GitHub",
+    "GitLab",
+    "DevOps"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "International Customer Support Manager",
+   "regionId": "远程 · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "International Customer Support Manager (Remote)",
+   "regionId": "远程",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Adjunct Professor, Teacher Education (Remote)",
+   "regionId": "San Diego, CA · US",
+   "degree": "1-3年",
+   "salaryMin": 62000,
+   "salaryMax": 73000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Adjunct Professor, School Psychology",
+   "regionId": "San Diego, CA · US",
+   "degree": "应届/入门",
+   "salaryMin": 64000,
+   "salaryMax": 75000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Adjunct Professor, School Counseling (Remote)",
+   "regionId": "San Diego, CA · US",
+   "degree": "1-3年",
+   "salaryMin": 62000,
+   "salaryMax": 73000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Staff Machine Learning Scientist, Personalization (Remote)",
+   "regionId": "New York, NY · US",
+   "degree": "5年以上",
+   "salaryMin": 210000,
+   "salaryMax": 250000,
+   "keywords": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "SQL",
+    "AWS",
+    "Kubernetes",
+    "Databricks",
+    "Docker"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Monday.com Solutions Architect",
+   "regionId": "Philippines · PH",
+   "degree": "1-3年",
+   "salaryMin": 24000,
+   "salaryMax": 28000,
+   "keywords": [
+    "CRM"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Field Agent",
+   "regionId": "Cape Town, WC · ZA",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Director of Business Development",
+   "regionId": "Louisville, KY · US",
+   "degree": "管理岗",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead Software Engineer (Remote)",
+   "regionId": "远程 · GB",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Java",
+    "Spring Boot",
+    "AWS",
+    "GitLab",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Oracle"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Event Programmer",
+   "regionId": "远程 · US",
+   "degree": "应届/入门",
+   "salaryMin": 38000,
+   "salaryMax": 48000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Lead AI Experience Engineer (Remote)",
+   "regionId": "远程 · GB",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Generative AI",
+    "LLM",
+    "API",
+    "RAG",
+    "Zendesk",
+    "Salesforce",
+    "AI",
+    "Machine Learning"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Principal Engineer, Foundational Services (Remote)",
+   "regionId": "远程 · GB",
+   "degree": "5年以上",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "DNS",
+    "DevOps",
+    "SRE",
+    "GitLab",
+    "CI/CD",
+    "Python",
+    "Java",
+    "Go"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Designer (Remote)",
+   "regionId": "New York, NY · US",
+   "degree": "1-3年",
+   "salaryMin": 71000,
+   "salaryMax": 78000,
+   "keywords": [
+    "Adobe InDesign",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe Acrobat"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Full-Stack Developer (Remote)",
+   "regionId": "Warsaw, PL · PL",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Angular",
+    "Node.js",
+    "MongoDB",
+    "Frontend",
+    "Backend",
+    "FullStack"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Support Agent (Remote)",
+   "regionId": "Medellín, Antioquia · CO",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Support Agent (Remote)",
+   "regionId": "Cancún, Q.R. · MX",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Copywriter/Content Manager",
+   "regionId": "Mill Valley, CA · US",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Support Agent (Remote)",
+   "regionId": "Mexico City, MX · MX",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior E-Commerce Specialist (Remote)",
+   "regionId": "Carlsbad, CA · US",
+   "degree": "3-5年",
+   "salaryMin": 65000,
+   "salaryMax": 75000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Marketing & Content Development Manager",
+   "regionId": "Carlsbad, CA · US",
+   "degree": "1-3年",
+   "salaryMin": 70000,
+   "salaryMax": 80000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Engineer",
+   "regionId": "South San Francisco, CA · US",
+   "degree": "3-5年",
+   "salaryMin": 221000,
+   "salaryMax": 286000,
+   "keywords": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Oracle Cloud",
+    "Java",
+    "Go",
+    "Kubernetes",
+    "EC2"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Specialist - Production and Packaging Processes (Remote)",
+   "regionId": "Eberstalzell, Oberösterreich · AT",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Key Account Manager Convenience & E-Commerce (Remote)",
+   "regionId": "远程 · DE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Forward Deployed Engineer (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 230000,
+   "salaryMax": 280000,
+   "keywords": [
+    "Python",
+    "TypeScript",
+    "Java",
+    "LLM",
+    "AI",
+    "API"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Software Developer",
+   "regionId": "mobil (Bulgaria) · BG",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Senior Content Writer, Adoptions and Proposals",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 69000,
+   "salaryMax": 118000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Associate Vice President, State Markets Operations and Strategy",
+   "regionId": "远程 · US",
+   "degree": "管理岗",
+   "salaryMin": 127000,
+   "salaryMax": 234000,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Account Executive, Customer Growth (Remote)",
+   "regionId": "远程 · US",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Test Lead",
+   "regionId": "远程 · SE",
+   "degree": "3-5年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [
+    "Agile",
+    "Project Management",
+    "Microsoft 365",
+    "Cybersecurity"
+   ],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Customer Support",
+   "regionId": "远程 · NO",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Meeting Booker (Remote)",
+   "regionId": "远程",
+   "degree": "应届/入门",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Representative",
+   "regionId": "远程 · SE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Meeting Booker (Remote)",
+   "regionId": "远程 · SE",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  },
+  {
+   "title": "Sales Representative (Remote)",
+   "regionId": "远程",
+   "degree": "1-3年",
+   "salaryMin": 0,
+   "salaryMax": 0,
+   "keywords": [],
+   "source": "JobDataLake"
+  }
+ ]
+}
