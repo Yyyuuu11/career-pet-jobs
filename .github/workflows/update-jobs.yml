@@ -1,24 +1,44 @@
 name: 更新招聘数据
+
 on:
   schedule:
+    # 每周一 09:00 UTC 自动运行（北京时间约 17:00）
     - cron: '0 9 * * 1'
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # 允许在 Actions 页面手动触发
+
 permissions:
-  contents: write
+  contents: write        # 需要写权限以提交 jobs.json
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: node collect.js
-      - run: |
+
+      - name: 采集并生成 jobs.json
+        env:
+          # 默认国内模式：collect.js 读取 domestic_seed.json（覆盖各专业+多省份的国内岗位样本）生成 jobs.json。
+          # 如需切换国际版：在仓库 Settings → Secrets 配置 JDL_API_KEY，并把下方 DATA_MODE 改为 international。
+          DATA_MODE: domestic
+          JDL_API_KEY: ${{ secrets.JDL_API_KEY }}
+          JOBDATA_API_KEY: ${{ secrets.JOBDATA_API_KEY }}
+        run: node collect.js
+
+      - name: 提交变更（如有）
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain jobs.json)" ]; then
             git add jobs.json
             git commit -m "chore: 自动更新招聘数据 $(date +%F)"
             git push
+            echo "已提交并推送新的招聘数据"
+          else
+            echo "数据无变化，无需提交"
           fi
